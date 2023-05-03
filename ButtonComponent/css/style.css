@@ -1,0 +1,28 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #FFF;
+  color: black;
+  text-decoration: none;
+  transition-property: border, color, background;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  border-color: #FFF;
+  color: #FFF;
+  background-color: black;
+}
