@@ -1,0 +1,63 @@
+/* headerエリア -----------------------*/
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px #03030366;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: #fff;
+  font-family: "Note Sans", sans-serif;
+}
+
+.header a {
+  text-decoration: none;
+  color: #030303;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Dela Gothic One', cursive;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navigation-item {
+  padding-right: 20px;
+}
+.navigation-item:last-child {
+  padding-right: 0;
+}
+.navigation-item a {
+  text-decoration: none;
+  color: #030303;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-title {
+    margin-bottom: 4px;
+  }
+  .navigation-item a {
+    font-size: 0.7em;
+  }
+}
+
+/* mainエリア -----------------------*/
+.main {
+  height: 2100px;
+  background: linear-gradient(45deg, #030303, #03030366);
+}
