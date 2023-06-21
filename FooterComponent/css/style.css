@@ -1,0 +1,84 @@
+/* common -----------------------*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #030303;
+}
+
+/* mainエリア -----------------------*/
+.main {
+  height: 2100px;
+  background: linear-gradient(45deg, #030303, #03030366);
+}
+
+/* footerエリア -----------------------*/
+.footer-hr {
+  width: 80svw;
+  border-top: 1px solid #cccccc;
+}
+.footer {
+  background-color: #f2f2f2;
+  .footer-upper {
+    display: flex;
+    width: 100svw;
+    padding: 2em 12.5%;
+
+    .footer-upper-link {
+      width: 25svw;
+      text-align: center;
+      border-left: 1px solid #cccccc;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:last-child {
+        border-right: 1px solid #cccccc;
+        &:hover {
+          color: rgb(95, 245, 245);
+        }
+      }
+      &:hover {
+        color: rgb(95, 245, 245);
+      }
+      .upper-link-wrapper {
+        padding: 2em 0;
+        .upper-link-title {
+          font-size: 2rem;
+          font-weight: bold;
+          font-family: 'Abril Fatface', cursive;
+        }
+        .upper-link-description {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  .footer-middle {
+    .footer-middle-link {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1em 12.5svw;
+      .footer-link-item {
+        width: 25svw;
+        text-align: center;
+        line-height: 2em;
+      }
+    }
+  }
+  .footer-bottom {
+    .sns-logo-wrapper {
+      display: flex;
+      justify-content: center;
+
+      .sns-logo {
+        width: 3em;
+        margin: 0.5em 0.5em;
+      }
+    }
+  }
+}
