@@ -1,0 +1,27 @@
+.main {
+  width: 100svw;
+  height: 100svh;
+  background: radial-gradient(rgb(255, 253, 253, 0.4), rgba(255, 255, 255, 0)),url(../image/pc.jpg) no-repeat center/100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Note Serif JP', serif;
+}
+.site-title {
+  font-size: 5rem;
+  font-weight: 700;
+  /* font-family: 'Dancing Script', cursive; */
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.site-subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin-bottom: 1rem;
+}
